@@ -13,6 +13,14 @@ Target of this assignment to created a functional UI as represented in the diagr
 Diagrams are available in /design/
 Required assets are available in /app/assets/img/
 
+# Instruction
+
+- Its TypeScript Project, you should continue with TypeScript.
+- Use bootstrap for styling your components etc.
+- Make sure that all filter options workable.
+
+
+
 ## Code structure
 
 src<br />
@@ -75,7 +83,7 @@ src<br />
 - user should be able to add a customer
 - user should be able to delete a customer
 - user should be able to edit a customer
-- uuer should be able to update a customer
+- user should be able to update a customer
 
 ## PS
 
