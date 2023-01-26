@@ -1,3 +1,16 @@
+## How to submit assignment
+
+- clone this repo to your local machine 
+- Setup the project according to given below Instructions
+- once completed create a Zip File of this project and submit it via email to aqeel.ali@xislabs.com with subject as *your name*-react-interview-assignment
+
+## Notes
+
+- use email : admin@demo.com and password : demo to login into the application
+- Code should be done in typescript
+- React version 18
+- Node version 18.12.1
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -81,17 +94,3 @@ src<br />
 - user should be able to add a customer
 - user should be able to delete a customer
 - user should be able to update a customer
-
-## How to submit
-
-## Notes
-
-- use email : admin@demo.com and password : demo to login into the application
-- Code should be done in typescript
-- React version 18
-- Node version 18.12.1
-
-# How to submit assignment
-
-- create a fork of this repo on github using your personal github account
-- once completed submit your git repo link back to us
