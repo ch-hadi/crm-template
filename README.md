@@ -15,24 +15,24 @@ Required assets are available in /app/assets/img/
 
 ## Code structure
 
-src
----app
-------components
-------form (any form input element should go here with its own styling)
-------shared (any shared or common components should go here with there own styling)
-------(you are allowed to create new folders as you see fit)
----pages
---------auth (this folder contains functional login page you need to add its styling)
---------dashboard (this folder contains a plain dashboard page which you have to make functional as per shared images)
----redux
---------_mocks_
---------auth (this folder contains mocked responses for authentication)
---------customer (this folder contains mocked responsed for customer CRUD)
---------mockData (this folder contains mocked data)
---------mockTypes (this folder contains interfaces for mocks)
---------api (this folder contains interfaces for API reuqest and response)
---------auth (this folder contains slice,action,and api for authentication)
---------customer (this folder contains only api for customer you have to write slice and action, take example from auth slic and action)
+src<br />
+---app<br />
+------components<br />
+------form (any form input element should go here with its own styling)<br />
+------shared (any shared or common components should go here with there own styling)<br />
+------(you are allowed to create new folders as you see fit)<br />
+---pages<br />
+--------auth (this folder contains functional login page you need to add its styling)<br />
+--------dashboard (this folder contains a plain dashboard page which you have to make functional as per shared images)<br />
+---redux<br />
+--------_mocks_<br />
+--------auth (this folder contains mocked responses for authentication)<br />
+--------customer (this folder contains mocked responsed for customer CRUD)<br />
+--------mockData (this folder contains mocked data)<br />
+--------mockTypes (this folder contains interfaces for mocks)<br />
+--------api (this folder contains interfaces for API reuqest and response)<br />
+--------auth (this folder contains slice,action,and api for authentication)<br />
+--------customer (this folder contains only api for customer you have to write slice and action, take example from auth slic and action)<br />
 
 ## API's
 
