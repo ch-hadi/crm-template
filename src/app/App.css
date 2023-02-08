@@ -1,7 +1,3 @@
-.App {
-  /* text-align: center; */
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,4 +32,131 @@
   100% {
     transform: translateY(0px);
   }
+}
+th {
+  text-transform: uppercase;
+}
+.status{
+  background: #ffe2e5;
+    padding: 5px 11px;
+    border-radius: 6px;
+    color: #f54e60;
+    font-size: 12px;
+    font-weight: bold;
+}
+.status-active{
+  background: #c9f7f4;
+  padding: 5px 11px;
+  border-radius: 6px;
+  color: #54d3cd;
+  font-size: 12px;
+  font-weight: bold;
+}
+.status-circle{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    background: #3699fe;
+    border-radius: 43px;
+    margin: 0 5px;
+}
+.individual {
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    display: flex;
+    align-items: center;
+}
+.table>tbody{
+  vertical-align: middle !important;
+}
+.main{
+   display: flex;
+    width: 100%;
+    background: aliceblue;
+    justify-content: space-between
+}
+.content-div{
+    margin: 30px;
+    /* padding: 55px; */
+    background: white;
+    border-radius: 10px
+}
+.add-customer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.add-customer-btn{
+    background: #3699fe !important;
+    border: none !important;
+}
+.table-class{
+  padding: 0px 20px 20px;
+}
+.c-list{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.table-class th{
+font-size: 13px;
+color: #b9b9c6;
+}
+.drop-down{
+  display: flex;
+  padding: 15px 0px;
+}
+.dropdown-toggle {
+  white-space: nowrap !important;
+  width: 170px !important;
+  background: aliceblue !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin: 0px 5px;
+}
+.filter-para{
+  /* padding: 0px; */
+  padding: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+#dropdown-basic{
+  background-color: transparent !important;
+  border: 1px solid #d5d5d5;
+}
+.icon-style{
+  margin-right:5px !important;
+  padding:2px 5px !important;
+  border-radius:4px !important;
+  cursor: pointer;
+  background:#f4f6f9 !important;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.profile-ico{
+    margin: 0px;
+    padding: 2px 15px;
+    margin-left: 5px;
+    color: #19c5bd !important;
+    background-color: #c9f7f4;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+.pg{
+    display: flex;
+    justify-content: space-between;
+}
+.nb-pg{
+  display: flex;
+  /* align-items: center; */
+}
+.showing{
+    padding: 9px 0px;
+    font-size: 12px;
+    font-weight: bold;
 }

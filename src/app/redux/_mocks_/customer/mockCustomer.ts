@@ -54,6 +54,7 @@ export default function mockCustomer(mock: MockAdapter) {
   });
 
   mock.onGet(/api\/customers\/\d+/).reply((config) => {
+    console.log('f->',config)
     if (config?.url) {
       const id = config.url.match(/api\/customers\/(\d+)/)![1];
       const customer = customers.find((el) => el.id === +id);

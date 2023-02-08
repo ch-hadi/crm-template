@@ -1,6 +1,6 @@
 import React from "react";
 import { UseFormRegister, FieldValues } from "react-hook-form";
-
+import Button from 'react-bootstrap/Button';
 export interface TextInputProps {
   type: "text" | "password" | undefined;
   name: string;
@@ -11,12 +11,11 @@ export interface TextInputProps {
 
 const TextInput = ({ type, name, register, errorMessage, label }: TextInputProps) => {
   return (
-    <>
-      <label>{label}</label>
-      <br></br>
+    <div className="container">
       <input type={type} {...register(name)} />
+    
       {errorMessage && <div>{errorMessage}</div>}
-    </>
+    </div>
   );
 };
 

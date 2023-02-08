@@ -12,9 +12,11 @@ export const logIn = (email: string, password: string) => (dispatch: AppDispatch
     email,
     password,
   };
+  // console.log(loginRequest)
   return serverRequest
     .logIn(loginRequest)
     .then((response) => {
+      console.log(response)
       const loginData: Login = {
         user: {
           id: response.data.id,
@@ -51,6 +53,14 @@ export const Who_Am_i = () => (dispatch: AppDispatch) => {
     });
 };
 
+export const Cl = () => (dispatch: AppDispatch) => {
+  console.log('in')
+  dispatch(actions.startCall);
+  console.log('in2')
+  serverRequest.getCustomers().then((res)=>{
+    console.log('r->',res)
+  })
+}
 export const logout = () => (dispatch: AppDispatch) => {
   dispatch(actions.loggedOut());
 };
